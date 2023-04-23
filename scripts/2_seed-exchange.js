@@ -31,7 +31,7 @@ async function main() {
   const exchange = await ethers.getContractAt('Exchange', config[chainId].exchange.address)
   console.log(`Exchange fetched: ${exchange.address}\n`)
 
-  // Give tokens to account[1]
+  // Give tokens to account[0]
   const sender = accounts[0]
   const receiver = accounts[1]
   let amount = tokens(10000)

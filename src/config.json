@@ -13,5 +13,21 @@
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
     },
     "explorerURL": "#"
+  },
+
+  "5": {
+    "exchange": {
+      "address": "0x222f46d9032C31c173Fb00e48d2097dDC676eC48"
+    },
+    "DApp": {
+      "address": "0x31501A09fd73DE568c67c5B19D02Ef36EC42cE09"
+    },
+    "mETH": {
+      "address": "0x5B2F2Ee049783e9876FB0081FC9304BCF802fe95"
+    },
+    "mDAI": {
+      "address": "0x14593EBF808b159267A80A4DD8769fB3D0e4061a"
+    },
+    "explorerURL": "https://goerli.etherscan.io"
   }
 }

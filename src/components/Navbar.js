@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux'
 import Blockies from 'react-blockies'
 
-import logo from '../assets/logo.png'
+import elogo from '../assets/elogo.png'
 import eth from '../assets/eth.svg'
 
 import { loadAccount } from '../store/interactions'
@@ -30,8 +30,8 @@ const Navbar = () => {
   return(
     <div className='exchange__header grid'>
       <div className='exchange__header--brand flex'>
-        <img src={logo} className="logo" alt="DApp Logo"></img>
-        <h1>DApp Token Exchange</h1>
+        <img src={elogo} className="logo" alt="DApp Logo"></img>
+        <h1>Token Exchange</h1>
       </div>
 
       <div className='exchange__header--networks flex'>
@@ -41,6 +41,7 @@ const Navbar = () => {
           <select name="networks" id="networks" value={config[chainId] ? `0x${chainId.toString(16)}` : `0`} onChange={networkHandler}>
             <option value="0" disabled>Select Network</option>
             <option value="0x7A69">Localhost</option>
+            <option value="0x5">goerli</option>
           </select>
         )}
 
