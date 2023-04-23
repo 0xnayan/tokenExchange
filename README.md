@@ -31,11 +31,11 @@
 ## About The Project
 
   <p align="center">
-   Welcome to my NFT minting website! This platform allows you to mint your own non-fungible tokens on the Ethereum blockchain.
+   
     <br />
     <br />
     <div align="center">
-    <img src="https://ipfs.io/ipfs/QmWtH4CKoa4FdTePVtFJtBwjz542CwQgrsTMrGNpF9hKLJ/3.png" alt="Logo" >
+   
     </a>
     <br/>
     <br/>
@@ -46,9 +46,7 @@
   </p>
 </div>
 
-With the user-friendly interface, you can easily pay the required fee to mint the NFT. Once the transaction is confirmed on the blockchain, your NFT is ready to be viewed and traded on NFT marketplaces(opensea).
 
-Though currently this website is running on goerli testnet. I am working to deploy it in eth mainnet or polygon networks that will give you flexibility in choosing which network to use for your NFTs.
 
 ### Built With
 Using tools:
@@ -66,7 +64,7 @@ Using tools:
 
 ### Prerequisites
 
-Before you can start using the NFT minting project, you need to have the following tools installed in your computer:
+Before you can start using the tokenExchange project, you need to have the following tools installed in your computer:
 - Node.js
 - Hardhat framework
 
