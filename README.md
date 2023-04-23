@@ -4,7 +4,6 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-   <li><a href="#view-website">View website</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -24,24 +23,21 @@
   </ol>
 </details>
 
-## View website
-  - https://cool-meadow-8598.on.fleek.co/
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
   <p align="center">
-   
+   Welcome to my NFT minting website! This platform allows you to mint your own non-fungible tokens on the Ethereum blockchain.
     <br />
     <br />
     <div align="center">
-   
+    <img src="https://github.com/0xnayan/tokenExchange/blob/master/token.png" alt="Logo" >
     </a>
     <br/>
     <br/>
-    <a href="https://empty-block-7527.on.fleek.co/">View Demo</a>
+    <a href="https://cool-meadow-8598.on.fleek.co/">View Demo</a>
     ·
-    <a href="https://github.com/0xnayan/mint-nfts/issues">Report Bug</a>
+    <a href="https://github.com/0xnayan/tokenExchange/issues">Report Bug</a>
    
   </p>
 </div>
