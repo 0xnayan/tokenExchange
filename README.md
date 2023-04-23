@@ -27,7 +27,7 @@
 ## About The Project
 
   <p align="center">
-   Welcome to my NFT minting website! This platform allows you to mint your own non-fungible tokens on the Ethereum blockchain.
+   A web3 token exchange project is a decentralized platform for trading various types of tokens that leverages the power of blockchain technology and web3 protocols.
     <br />
     <br />
     <div align="center">
@@ -38,22 +38,28 @@
     <a href="https://cool-meadow-8598.on.fleek.co/">View Demo</a>
     ·
     <a href="https://github.com/0xnayan/tokenExchange/issues">Report Bug</a>
-   
   </p>
 </div>
 
+</br>
+<p>The exchange is designed to be secure, transparent, and immutable, ensuring that all transactions are executed in a decentralized manner. Users can connect their Ethereum wallets to the platform and trade tokens directly with other users without the need for an intermediary. The platform uses smart contracts to facilitate the exchange of tokens, with each contract representing a specific token or trading pair. Smart contracts automatically execute trades based on predefined rules, ensuring that all transactions are conducted fairly and securely.
 
+Users can place buy or sell orders for tokens, which are matched with corresponding orders in the order book. Once a match is found, the trade is executed and the tokens are exchanged between the two parties. The exchange charges a small fee for each trade, which is paid in the platform's native token.
+The platform also includes various features to enhance the trading experience, such as order book visualization, price charts, and real-time market data. Additionally, users can participate in liquidity pools to earn rewards for providing liquidity to the platform.
+(Currently this site is running on goerli testnet only if you want to run it on eth mainnet then a slight change will occure)
+</p>
 
 ### Built With
 Using tools:
 
 - Solidity
 - ReactJs
+- React redux
 - Hardhat
 - Metamask
 - EthersJs
 - Alchamy
-- Tailwind CSS
+- Chai
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -81,6 +87,11 @@ Required steps for installing the project:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+### Testing the contracts
+ ```sh
+   npx hardhat test
+   ```
+By doing this test you will able to know whether the contracts work properly or not.
 
 ### For localhost:
 1. 1st run the hardhat node like:
@@ -89,17 +100,23 @@ Required steps for installing the project:
    ```
 2. Then to deploy the contracts in localhost run
  ```sh
-   npx hardhat run --network localhost scripts/deploy.js
+   npx hardhat run --network localhost scripts/1_deploy.js
+   npx hardhat run --network localhost scripts/2_seed-exchange.js
    ```
-3. Now you are ready to go for mint in the localhost network
-
+3. Now you can view the website like
+ ```sh
+   npm run start
+   ```
+4. Now make some transactions to see how the exchange work.
 ### For goerli testnet:
-1. 1st you have to store the private key in the .env file (make sure you have sufficient test eth for the gas fees).
+1. 1st you have to store the private key in the .secret file (make sure you have sufficient test eth for the gas fees) also put the infura key in .infura file
+(this 2 files must be in .gitignore file)
 2. Now deploy the contract to the goerli testnet like:
  ```sh
-   npx hardhat run --network goerli scripts/deploy.js
+   npx hardhat run --network goerli scripts/1_deploy.js
+   npx hardhat run --network goerli scripts/2_seed-exchange.js
    ```
-3. Now you can go for mint the nfts by paying minting fee.
+3. Now you are all set to make order, fill order and all other transaction.
 
 <!-- CONTRIBUTING -->
 ## Contributing
