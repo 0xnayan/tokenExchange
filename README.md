@@ -40,7 +40,6 @@
     <a href="https://github.com/0xnayan/tokenExchange/issues">Report Bug</a>
   </p>
 </div>
-
 </br>
 <p>The exchange is designed to be secure, transparent, and immutable, ensuring that all transactions are executed in a decentralized manner. Users can connect their Ethereum wallets to the platform and trade tokens directly with other users without the need for an intermediary. The platform uses smart contracts to facilitate the exchange of tokens, with each contract representing a specific token or trading pair. Smart contracts automatically execute trades based on predefined rules, ensuring that all transactions are conducted fairly and securely.
 
