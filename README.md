@@ -28,6 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
   <p align="center">
    A web3 token exchange project is a decentralized platform for trading various types of tokens that leverages the power of blockchain technology and web3 protocols.
     <br />
