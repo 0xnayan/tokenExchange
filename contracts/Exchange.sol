@@ -7,9 +7,11 @@ import "./Token.sol";
 contract Exchange {
     address public feeAccount;
     uint256 public feePercent;
+    uint256 public orderCount;
+    
     mapping(address => mapping(address => uint256)) public tokens;
     mapping(uint256 => _Order) public orders;
-    uint256 public orderCount;
+    
     mapping(uint256 => bool) public orderCancelled;
     mapping(uint256 => bool) public orderFilled;
 
